@@ -26,6 +26,6 @@ POour ce qui est de l'organisation, on aurait plusieurs tables / db qui nous per
         
    > })
 
-la création d'un étage se ferait en plusieurs étapes: <br>
-    - Premièrement, le positionnement de l'entrée, de la sortie, des salles, embranchements, couloirs et cul de sac. <br>
-    - Ensuite, on place les coffres, monstres et "junk" dans le niveau en prenant en compte la capacité max de chaque chunk <br>
+La création d'un étage se ferait en plusieurs étapes: <br>
+- Premièrement, le positionnement de l'entrée, de la sortie, des salles, embranchements, couloirs et cul de sac. <br>
+- Ensuite, on place les coffres, monstres et "junk" dans le niveau en prenant en compte la capacité max de chaque chunk et la capacité max de l'étage.<br>
