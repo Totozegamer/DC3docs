@@ -2,7 +2,7 @@
 
 L'idée serait d'avoir une génération de donjons afin d'obtenir un résultat similaire à ce que l'on pouvait obtenir sur Dark Chronicle, donc des "niveaux" qui donne l'impression que les salles et couloirs sont placé de manière aléatoire, mais logique quand même.
 
-POour ce qui est de l'organisation, on aurait plusieurs tables / db qui nous permettrait d'obtenir les données qui nous seront nécéssaire:
+POour ce qui est de l'organisation, on aurait plusieurs tables / db qui nous permettrait d'obtenir les données qui nous seront nécéssaire: /n
     - Une table contenant la liste des étages. Cette table nous permettrait d'avoir les donnée voulu pour chaques étages.
     (exemple : {
         "biome" : "Forest", //Pour identifier dans qu'elle région du jeu on ce situe
@@ -19,8 +19,13 @@ POour ce qui est de l'organisation, on aurait plusieurs tables / db qui nous per
     }) 
     - Une table contenant la liste des monstres. Cette table nous permettrait d'avoir les données de chaque monstres.
     (exemple : {
-        
+
+    })
+    - Une tabke contenant la liste des objets. Cette table nous permettrait d'avoir les données de chaque objets.
+    (exemple : {
+
     })
 
 la création d'un étage se ferait en plusieurs étapes:
     - Premièrement, le positionnement de l'entrée, de la sortie, des salles, embranchements, couloirs et cul de sac.
+    - Ensuite, on place les coffres, monstres et "junk" dans le niveau en prenant en compte la capacité max de chaque chunk
