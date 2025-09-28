@@ -4,7 +4,7 @@ L'idée serait d'avoir une génération de donjons afin d'obtenir un résultat s
 
 POour ce qui est de l'organisation, on aurait plusieurs tables / db qui nous permettrait d'obtenir les données qui nous seront nécéssaire: <br>
 - Une table contenant la liste des étages. Cette table nous permettrait d'avoir les donnée voulu pour chaques étages. <br>
-    (exemple : { <br>
+   > (exemple : { <br>
         >"biome" : "Forest", //Pour identifier dans qu'elle région du jeu on ce situe <br>
         >"floor" : 6, //Pour identifier l'étage <br>
         >"size" : [12, 12], //Pour la taille maximale de l'étage <br>
@@ -16,15 +16,15 @@ POour ce qui est de l'organisation, on aurait plusieurs tables / db qui nous per
         >"chest_quantity" : 9, //Pour la quantité de coffres présent dans l'étage <br>
         >"junk_max_quantity" : 14, //Pour la quantité max de "junk" jetable (caisses, tonneaux, rocher, ect.) présent dans l'étage <br>
         >"bgm" : "forest_bgm_3" //Pour le BGM utilisé pour cet étage <br>
-    }) <br>
+   > }) <br>
 - Une table contenant la liste des monstres. Cette table nous permettrait d'avoir les données de chaque monstres. <br>
-    (exemple : { <br>
+   > (exemple : { <br>
         >
-    }) <br>
+   > }) <br>
 - Une tabke contenant la liste des objets. Cette table nous permettrait d'avoir les données de chaque objets. <br>
-    (exemple : { <br>
+   > (exemple : { <br>
         >
-    })
+   > })
 
 la création d'un étage se ferait en plusieurs étapes: <br>
     - Premièrement, le positionnement de l'entrée, de la sortie, des salles, embranchements, couloirs et cul de sac. <br>
